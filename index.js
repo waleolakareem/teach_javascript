@@ -17,3 +17,10 @@ var doYouRock = confirm("The question is,do *you* rock?");
 var howMuchRock = prompt("How much do you rock?")
 
 console.log(doYouRock + howMuchRock)
+
+//Activity 3
+var doYouLike = confirm('Do you like sushi');
+var whatKindOfSushiDoYouLike = prompt('What kind of sushi do you like?')
+
+alert (doYouLike);
+alert (whatKindOfSushiDoYouLike);
