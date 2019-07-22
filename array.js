@@ -23,4 +23,22 @@ function printout(Things) {
   }
 }
 
-printout("money");
+// printout("money");
+
+//Review activity
+for (var i = 0;i < 5; i++) {
+  console.log(`I am ${[i]}`)
+}
+
+
+//Activity
+
+var myFarm = ["chickens", "pigs", "cows", "horses", "ostriches"];
+
+for (var i = 0;i < myFarm.length; i++) {
+  console.log(myFarm[i]);
+  if (myFarm[i][0] === "c" || myFarm[i][0] === "o") {
+    alert("Start with c or o!!")
+  }
+}
+
